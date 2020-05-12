@@ -1,3 +1,3 @@
 web: gunicorn  breclib:application -b 127.0.0.1:8000
-python .\manage.py migrate
-python .\manage.py runserver
+web: python manage.py migrate
+web:python manage.py runserver
