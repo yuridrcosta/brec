@@ -3,3 +3,4 @@ keras==2.2.5
 pandas
 django-heroku
 gunicorn
+pysqlite3
