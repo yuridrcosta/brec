@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{%block title %}Texto Avaliado {% endblock %} {%block content%}
+<div class="offset2 col-8 text-evaluated">
+    <p>{% for sentence in text_evaluated %} {% for word in sentence %} {% if word.1 == 0 %} {{word.0}} {%elif word.1 == 1%}
+        <h7 class='bem-1'>{{word.0}}</h7>
+        {%else%}
+        <h7 class='bem-2'>{{word.0}}</h7>
+        {%endif%}{%endfor%} {%endfor%}</p>
+</div>
+{%endblock%}

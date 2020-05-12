@@ -1,0 +1,23 @@
+{% extends 'base.html' %} {% block title %} Reconhecimento de Bens {% endblock %} {%block content%}
+<div class="col-12 content-title ">
+    <h1>
+
+    </h1>
+</div>
+<div class="col-5 lib-pres">
+    <h1>Reconhecimento de Bens em Textos</h1>
+    <p>
+        Utilizando conceitos de Reconhecimento de Entidades Nomeadas com Aprendizagem Profunda, essa biblioteca permite ao usuário identificar partes do texto com bens. Serão destacados em vermelho os trechos avaliados como bens e em rosa os trechos considerados
+        complementares aos bens.
+    </p>
+    <a href="#" style="text-decoration:none;"><button type="button" class="btn-evaluate">Acesse no github</button></a>
+</div>
+<div class="offset-2">
+    <form method="post">
+        {% csrf_token %} {{form}}
+        <input class=" offset-10 btn-evaluate" type="Submit" value="Avaliar texto">
+    </form>
+</div>
+
+</div>
+{%endblock%}

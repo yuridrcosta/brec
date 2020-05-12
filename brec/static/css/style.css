@@ -1,0 +1,80 @@
+/*Navbar*/
+
+.container-fluid {
+    padding: 0;
+}
+
+.nav-edit {
+    width: 100%;
+    padding-left: 10%;
+    background-color: #F8F9FA;
+    color: #EBF7A5;
+    border-bottom: 1px dashed #d1cfcf;
+}
+
+
+/* Conteúdo principal */
+
+.main-content {
+    height: 500px;
+    margin-top: 80px;
+}
+
+
+/* Apresentação do Funcionamento*/
+
+.lib-pres {
+    position: absolute;
+    height: 500px;
+    padding: 15 15;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* Entrada de Texto */
+
+textarea {
+    float: right;
+    padding-top: 10px;
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px dashed #d1cfcf;
+    height: 400px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.btn-evaluate {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f8f9fa;
+    border: 1px dashed #d1cfcf;
+    margin-top: 20px;
+    color: #515152;
+}
+
+.btn-evaluate:hover {
+    background-color: #e8e8e8;
+}
+
+
+/* Resultado da Avaliação */
+
+.text-evaluated {
+    margin-top: 80px;
+}
+
+p {
+    color: black;
+}
+
+.bem-1 {
+    color: red;
+}
+
+.bem-2 {
+    color: #f226fc;
+}
