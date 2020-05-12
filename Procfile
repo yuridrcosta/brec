@@ -1,2 +1,3 @@
-web: gunicorn breclib.wsgi
-web: python manage.py runserver
+web: gunicorn firstDjango.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
